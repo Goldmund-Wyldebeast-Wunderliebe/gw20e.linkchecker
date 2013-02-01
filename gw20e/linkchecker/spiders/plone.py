@@ -6,8 +6,8 @@ from scrapy.http import Request, FormRequest
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 
-from linkchecker.items import LinkcheckerPage
-from linkchecker.settings import SPIDER_BLACKLIST
+from gw20e.linkchecker.items import LinkcheckerPage
+from gw20e.linkchecker.settings import SPIDER_BLACKLIST
 
 
 class LinkSpider(InitSpider, CrawlSpider):

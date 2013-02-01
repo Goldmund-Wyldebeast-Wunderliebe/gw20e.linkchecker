@@ -9,8 +9,8 @@
 BOT_NAME = 'gw20e.linkchecker'
 BOT_VERSION = '1.0'
 
-SPIDER_MODULES = ['linkchecker.spiders']
-NEWSPIDER_MODULE = 'linkchecker.spiders'
+SPIDER_MODULES = ['gw20e.linkchecker.spiders']
+NEWSPIDER_MODULE = 'gw20e.linkchecker.spiders'
 
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
