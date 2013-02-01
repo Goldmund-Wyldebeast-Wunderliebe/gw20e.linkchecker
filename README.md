@@ -1,4 +1,11 @@
-gw20e.linkchecker
-=================
+.. contents::
 
-A simple linkchecker based on scrapy
+Introduction
+============
+
+Usage
+-----
+
+Install scrapy (via virtualenv) and run:
+
+    # scrapy crawl plone
